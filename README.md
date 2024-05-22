@@ -74,8 +74,8 @@ The **Student Details** application is a simple Spring Boot application that pri
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-repo-url.git
-cd your-repo-url
+git clone https://github.com/Shankar-Singh-Mahanty/Spring-Boot.git
+cd Spring-Boot
 ```
 
 2. **Build the projects:**
