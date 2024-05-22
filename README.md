@@ -2,9 +2,6 @@
 
 This repository contains two distinct Spring Boot applications:
 
-1. **Stamp Collection Application**: Manages a collection of stamps and other related functionalities.
-2. **Student Details Application**: Prints student details to verify and check Spring functionalities.
-
 ## Table of Contents
 
 - [Description](#description)
@@ -16,14 +13,11 @@ This repository contains two distinct Spring Boot applications:
   - [Prerequisites](#prerequisites)
   - [Running the Applications](#running-the-applications)
 - [Contributions](#contributions)
-- [License](#license)
 
 ## Description
 
-This repository provides two Spring Boot applications demonstrating different aspects of Spring:
-
-- **Stamp Collection Application**: Manages a collection of stamps with CRUD operations.
-- **Student Details Application**: Prints student details, verifying basic Spring functionalities.
+- **Stamp Collection Application**: Manages a collection of stamps and other related functionalities.
+- **Student Details Application**: Prints student details to verify and check Spring functionalities.
 
 ## Repository Structure
 
@@ -31,22 +25,17 @@ This repository provides two Spring Boot applications demonstrating different as
 .
 ├── stamp-collection
 │   ├── src
-│   │   ├── main
-│   │   │   ├── java
+│   │   ├── cgu
+│   │   │   ├── exp10
+|   |   |   |   ├── main
+|   |   |   |   └── POJO
+|   │   │   │   └── resources
+│   │   └── ssm
+|   |   |   ├── main
+|   |   |   └── POJO
 │   │   │   └── resources
-│   │   └── test
-│   │       ├── java
-│   │       └── resources
-│   └── pom.xml
-└── student-details
-    ├── src
-    │   ├── main
-    │   │   ├── java
-    │   │   └── resources
-    │   └── test
-    │       ├── java
-    │       └── resources
-    └── pom.xml
+└── ── ── ── ──
+
 ```
 
 ## Applications Overview
@@ -62,9 +51,8 @@ The **Stamp Collection** application allows users to manage their stamp collecti
 
 **Technologies used:**
 - Spring Boot
-- Spring Data JPA
-- H2 Database
-- Thymeleaf
+- POJO class
+- html
 
 ### Student Details
 
@@ -78,7 +66,8 @@ The **Student Details** application is a simple Spring Boot application that pri
 ### Prerequisites
 
 - JDK 11 or higher
-- Maven
+- Spring STS suit 4
+- Eclipse IDE
 
 ### Running the Applications
 
@@ -123,10 +112,6 @@ mvn spring-boot:run
 ## Contributions
 
 Feel free to fork this repository and contribute by submitting pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This repository is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
 
