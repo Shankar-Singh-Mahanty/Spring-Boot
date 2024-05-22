@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+	<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+		<bean class="cgu.exp10.POJO.Stamp" id="stampID1">
+			<property name="id" value="1" />
+			<property name="name" value="Swami Vivekananda" />
+			<property name="origin" value="INDIA" />
+			<property name="imageUrl"
+				value="https://www.stampsoftheworld.co.uk/w/images/c/c2/India_1963_Vivekananda_-_Birth_Centenary_a.jpg" />
+		</bean>
+
+		<bean class="cgu.exp10.POJO.Stamp" id="stampID2">
+			<property name="id" value="2" />
+			<property name="name" value="Queen" />
+			<property name="origin" value="GREAT BRITAIN" />
+			<property name="imageUrl"
+				value="https://i.pinimg.com/736x/a5/81/0c/a5810c4b705de200d97ddaea811ebcee.jpg" />
+		</bean>
+
+		<bean class="cgu.exp10.POJO.Stamp" id="stampID3">
+			<property name="id" value="2" />
+			<property name="name" value="George Washington" />
+			<property name="origin" value="UNITED STATES" />
+			<property name="imageUrl"
+				value="https://i.pinimg.com/564x/59/74/ab/5974ab0581a98180c31bb2309d67c2ab.jpg" />
+		</bean>
+
+	</beans>
+</element>
+
+
