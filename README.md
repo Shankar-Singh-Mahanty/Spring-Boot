@@ -54,6 +54,9 @@ The **Stamp Collection** application allows users to manage their stamp collecti
 - POJO class
 - html
 
+**Output:**
+- stamp_collection.html (will get upon proper execution of the application)
+  
 ### Student Details
 
 The **Student Details** application is a simple Spring Boot application that prints student details, verifying and checking basic Spring functionalities.
